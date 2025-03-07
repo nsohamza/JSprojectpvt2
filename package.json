@@ -1,0 +1,25 @@
+{
+  "name": "jsprojectpvt2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nsohamza/JSprojectpvt2#readme",
+  "bugs": {
+    "url": "https://github.com/nsohamza/JSprojectpvt2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsohamza/JSprojectpvt2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "field.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/field.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  }
+}

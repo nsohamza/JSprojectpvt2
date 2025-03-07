@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>FOOTBALL FIELD</title>
+</head>
+<body class="flex justify-center text-center h-screen bg-green-500">
+    <div class="container mx-auto my-auto p-4">
+        <h1 class="text-6xl font-black mb-8">Click the football field to Start</h1>
+        
+        <img 
+            id="ft-img" 
+            src="./images/football.jpg" 
+            alt="Football Field"
+            class="w-full max-w-xl mx-auto border border-gray-300 rounded-lg shadow-sm"
+        >
+        
+        <h1 id="counter" class="text-8xl font-black mt-8">0</h1>
+        
+        <div class="space-x-4">
+            <button 
+                hidden 
+                id="btn"
+                class="bg-red-500 text-white px-6 py-2 rounded-lg hover:bg-red-600 transition-colors duration-300"
+            >
+                Restart
+            </button>
+            
+            <button 
+                hidden 
+                id="double"
+                class="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors duration-300"
+            >
+                2X
+            </button>
+        </div>
+    </div>
+    
+  <script src="./field.js"></script>
+</body>
+</html>
